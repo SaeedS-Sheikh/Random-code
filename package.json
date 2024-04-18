@@ -1,0 +1,19 @@
+{
+  "name": "calculator-saeedsheikh125",
+  "version": "1.0.9",
+  "description": "A simple calculator with Ts, Node.js & Inquirer",
+  "main": "dist/test.js",
+  "type": "module",
+  "bin": "dist/test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.18"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
