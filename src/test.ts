@@ -11,7 +11,7 @@ const answers = await inquirer.prompt([
   {
     name: "secondNumber",
     type: "number",
-    message: "Enter your second number", 
+    message: "Enter your second number",
   },
   {
     name: "Operator",
@@ -34,3 +34,5 @@ if (answers.Operator === "Addition") {
 } else {
   console.log("Kindly Enter Valid Operator ");
 }
+
+console.log("My First Calculator in CLI has been done successfully ");
